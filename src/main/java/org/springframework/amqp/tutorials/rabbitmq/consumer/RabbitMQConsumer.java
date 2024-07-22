@@ -1,4 +1,4 @@
-package org.springframework.amqp.tutorials.rabbitmq;
+package org.springframework.amqp.tutorials.rabbitmq.consumer;
 
 import org.springframework.amqp.core.Message;
 import org.slf4j.Logger;

@@ -1,7 +1,8 @@
-package org.springframework.amqp.tutorials.rabbitmq;
+package org.springframework.amqp.tutorials.rabbitmq.publisher;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.amqp.tutorials.rabbitmq.entity.CustomerDto;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

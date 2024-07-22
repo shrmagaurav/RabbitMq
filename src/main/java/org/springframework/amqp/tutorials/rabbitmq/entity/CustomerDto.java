@@ -1,4 +1,4 @@
-package org.springframework.amqp.tutorials.rabbitmq;
+package org.springframework.amqp.tutorials.rabbitmq.entity;
 
 public class CustomerDto {
 

@@ -1,8 +1,9 @@
-package org.springframework.amqp.tutorials.rabbitmq;
+package org.springframework.amqp.tutorials.rabbitmq.controller;
 
+import org.springframework.amqp.tutorials.rabbitmq.entity.CustomerDto;
+import org.springframework.amqp.tutorials.rabbitmq.publisher.EnqueueDequeService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
